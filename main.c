@@ -11,7 +11,10 @@ int main()
                 for (I = 0; I < 10; I++) {
                     for (C = 0; C < 10; C++) {{
                         if(pow(L + O + G + I + C, 3) == L * 10000 + O * 1000 + G * 100 + I * 10 + C){
-                            printf("%d %d %d %d %d\n", L, O, G, I, C);
+                            //printf("%d %d %d %d %d\n", L, O, G, I, C);
+                        }
+                        if(pow(C, L) == L * 10000 + O * 1000 + G * 100 + I * 10 + C){
+                            //printf("%d %d\n", C, L);
                         }
                         }
                     }
